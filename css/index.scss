@@ -1,0 +1,132 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  background: #F5F5F5;
+  -webkit-flex-direction: column; }
+
+.header {
+  font-size: 0.18rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  line-height: 0.44rem;
+  color: #fff;
+  background: #46D264;
+}
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+    .btn{
+      background:#F6F6EA;
+      padding-top: 0.2rem;
+      text-align: center;
+      font-size: 0.14rem;
+        padding-bottom: 0.1rem;
+        p{
+          padding-bottom: 0.07rem;
+          color: #7F7F7F;
+        }
+        button{
+          width: 1rem;
+          height: 0.25rem;
+          background: #ccc;
+          background: #fff;
+          border: none;
+          color: #6A6A69;
+
+        }
+    }
+    nav{
+      border-bottom: 1px solid #C9C8B7;
+      margin-bottom: 0.1rem;
+       ul{
+        display: flex;
+          li{
+            flex-grow: 1;
+            text-align: center;
+            padding: 0.1rem 0;
+            &:nth-child(1) i{
+              background:#9CD512;
+            }
+             &:nth-child(2) i{
+              background:#FFBB1D;
+            }
+              .icon{
+                width: 0.45rem;
+                height: 0.45rem;
+                background: red;
+                border-radius: 100%;
+                display: inline-block;
+                line-height: 0.45rem;
+                text-align: center;
+                margin-right: 0.07rem;
+                color: #fff;
+                font-size: 0.2rem;
+              }
+              span{
+                font-size: 0.16rem;
+              }
+          }
+       }
+    }
+    ol{
+        padding: 0 0.1rem;
+        margin-top: 0.2rem;
+        background: #fff;
+      li{
+          border-bottom: 1px solid #ccc;
+        .icon{
+            font-size: 0.2rem;
+            margin: 0.1rem 0;
+            display: inline-block;
+        }
+        span{
+          padding-left: 0.07rem;
+        }
+        b{
+          float:right;
+          
+          margin-right: 0.05rem;
+            .iconfont{
+              font-size: 0.14rem;
+              color: #CCCCCC;
+              font-weight: 700;
+              vertical-align:bottom;
+            }
+        }
+      }
+      .none{
+        border: none;
+      }
+    }
+}
+
+.footer {
+  height: 0.5rem;
+  text-align: center;
+  border-top: 1px solid #ccc; 
+    ul{
+      display: flex;
+        li{
+          flex-grow: 1;
+          padding-top: 0.07rem;
+            .iconfont{
+              display: inline-block;
+            }
+            span{
+              display: block;
+            }
+        }
+        li:hover{
+          color: #46D264;
+        }
+    }
+}
+
